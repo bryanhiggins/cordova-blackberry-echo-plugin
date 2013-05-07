@@ -1,10 +1,6 @@
 #Node Modules
 node_modules/
 
-#Eclipse Junk
-.project
-.settings
-
 #Mac OS stuff
 *.DS_Store
 
@@ -16,11 +12,6 @@ tags
 *.swp
 
 #build output
-*/src/blackberry10/native/arm/*/*.o
-*/src/blackberry10/native/arm/*/*.so
-*/src/blackberry10/native/arm/*/*.a
-*/src/blackberry10/native/arm/*/test
-*/src/blackberry10/native/x86/*/*.a
-*/src/blackberry10/native/x86/*/*.o
-*/src/blackberry10/native/x86/*/*.so
-*/src/blackberry10/native/x86/*/test
+*.o
+*.a
+so.le-v7-g/

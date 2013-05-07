@@ -23,6 +23,9 @@
         <merges target="navigator" />
     </js-module>
     <platform name="blackberry10">
+        <source-file src="src/blackberry10/index.js" />
+        <lib-file src="src/blackberry10/native/device/libecho.so" arch="device" />
+        <lib-file src="src/blackberry10/native/simulator/libecho.so" arch="simulator" />
         <config-file target="www/config.xml" parent="/widget">
             <feature name="org.apache.cordova.blackberry.echo" value="org.apache.cordova.blackberry.echo" />
         </config-file>

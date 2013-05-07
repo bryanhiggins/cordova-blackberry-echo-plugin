@@ -53,6 +53,10 @@ JNEXT.Echo = function () {
 
     self.m_id = "";
 
+    self.getId = function () {
+        return self.m_id;
+    };
+
     self.getInstance = function () {
         if (!hasInstance) {
             self.init();
