@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-#include "public/plugin.h"
+#include "../public/plugin.h"
 #include <string>
 
 #ifndef ECHO_JS_H_
